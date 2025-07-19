@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Codebuilders Academy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Codebuilders Academy</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#enroll">Enroll</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="toggle-btn">
+      <i class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+
+      <h1 align="center" style="color: blue;">CODEBUILDERS ACADEMEY</h1><img src="C:\Users\Pavim\Downloads\logo.jpg" class="photo">
+      <h1>Empowering Future Technologists</h1>
+      <p>Learn coding, design & innovation with hands-on technical training<br>Your journey to a better life starts here!!!</P>
+      <a href="#enroll" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Codebuilders Academy helps students and professionals master in-demand tech skills.
+      Our mission is to bridge the gap between education and industry through expert-led training.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills We Teach</h2>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="frontend">Frontend</button>
+      <button class="filter-btn" data-category="backend">Backend</button>
+      <button class="filter-btn" data-category="cloud">Cloud</button>
+    </div>
+
+    <div class="skill-cards">
+      <div class="card" data-category="frontend">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, React</p>
+      </div>
+      <div class="card" data-category="backend">
+        <i class="fab fa-python"></i>
+        <h3>Python Programming</h3>
+        <p>Basics to Advanced</p>
+      </div>
+      <div class="card" data-category="backend">
+        <i class="fas fa-database"></i>
+        <h3>Data Science</h3>
+        <p>NumPy, Pandas, ML</p>
+      </div>
+      <div class="card" data-category="frontend">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>UI/UX Design</h3>
+        <p>Figma, Adobe XD</p>
+      </div>
+      <div class="card" data-category="backend">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>App Development</h3>
+        <p>Flutter, Android</p>
+      </div>
+      <div class="card" data-category="cloud">
+        <i class="fas fa-cloud"></i>
+        <h3>Cloud Computing</h3>
+        <p>AWS, Azure</p>
+      </div>
+    </div>
+  </section>
+  <section id ="offer" class = "offer">
+    <h2 align="center">Why we choose codebuilders</h2>
+    <div class="offer">
+        <img src="C:\Users\Pavim\Downloads\100.jpg" alt="100% moneyback guarantee">
+
+        <h3 align="center">100% moneyback guarantee</h3>
+    </div>
+     <div class="offer">
+        <img src="C:\Users\Pavim\Downloads\teacher.jpg" alt="Certified teachers">
+
+        <h3 align="center">Certified teachers</h3>
+    </div>
+     <div class="offer">
+        <img src="C:\Users\Pavim\Downloads\cc.jpg" alt="Course completion certificates">
+        <h3 align="center">Course completion certificates</h3>
+     </div>
+    <div class="offer">
+        <img src="C:\Users\Pavim\Downloads\place.jpg" alt="Placements">
+        <h3 align="center">Placements</h3>
+    </div>
+  </section>
+
+  <section id="enroll" class="enroll">
+    <h2>Enroll Now</h2>
+    <p>Fill the form below and start your learning journey!</p>
+    <form class="enroll-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="course" required>
+        <option value="">Select Course</option>
+        <option value="web">Web Development</option>
+        <option value="python">Python Programming</option>
+        <option value="data">Data Science</option>
+        <option value="uiux">UI/UX Design</option>
+        <option value="app">App Development</option>
+        <option value="cloud">Cloud Computing</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@codebuilders.academy</p>
+    <p>Phone: +91-98765 43210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Codebuilders Academy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
